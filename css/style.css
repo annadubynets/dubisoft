@@ -8,7 +8,11 @@
 }
 
 .text-primary {
-  color: #CBC4B1 !important;
+  color: #9D9581 !important;
+}
+
+.text-warning {
+  color: #55657D !important;
 }
 
 @font-face {
@@ -32,7 +36,7 @@
 }
 
 .font-size-sm {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .font-size-md {
@@ -57,10 +61,10 @@ p {
 }
 
 .main-section {
-  background-image: url("../images/main_picture.png");
+  background-image: url("../images/main_picture_2.png");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px 0px 80px;
+  padding: 280px 0px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
