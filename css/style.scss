@@ -1,0 +1,21 @@
+@import "bootstrap.min.css";
+@import "variables";
+@import "backgronds";
+@import "text";
+@import "typography";
+
+h1 {
+  font-family: $font-family-primary;
+}
+
+p {
+  font-family: $font-family-secondary;
+  padding-top: 200px;
+}
+
+.main-section {
+  background-image: url("../images/main_picture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 0px 80px;
+}
