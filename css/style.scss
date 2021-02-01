@@ -3,19 +3,61 @@
 @import "backgronds";
 @import "text";
 @import "typography";
+@import "navbars";
+@import "buttons";
 
 h1 {
   font-family: $font-family-primary;
+  color: $black-color;
 }
 
 p {
   font-family: $font-family-secondary;
-  padding-top: 200px;
+  color: $black-color;
 }
 
 .main-section {
-  background-image: url("../images/main_picture_2.png");
+  background-image: url("../images/main.png");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 280px 0px 50px;
+  padding: 220px 0px;
+}
+
+.form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $gray-color;
+  background: transparent;
+  padding: 8px 10px;
+  margin-bottom: 35px;color: $gray-color;
+  border-radius: 0px;
+}
+
+.line-lg {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: $white-color;
+  bottom: -20px;
+  left: 0;
+}
+
+.img-card {
+  width: 20%;
+}
+
+.card {
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.card:hover {
+  border-color: $yellow-color;
 }

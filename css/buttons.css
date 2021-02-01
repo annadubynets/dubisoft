@@ -1,0 +1,26 @@
+.btn-primary {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #D2C05B;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  padding: 16px 36px;
+  margin: 1px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #ffffff !important;
+  border: 1px solid #D2C05B !important;
+  color: #D2C05B !important;
+  outline: none !important;
+  box-shadow: 0px 15px 18px rgba(87, 74, 151, 0.21);
+  margin: 0px;
+}
+
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=buttons.css.map */
