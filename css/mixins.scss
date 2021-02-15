@@ -1,0 +1,20 @@
+@mixin max-screen($number) {
+  @media screen and (max-width: $number) {
+    @content;
+  }
+}
+
+@mixin min-width($number) {
+  @media screen and (min-width: $number) {
+    @content;
+  }
+}
+
+@mixin fit-to-parent() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 0 auto;
+}

@@ -1,5 +1,29 @@
 @import "variables";
 
+.bg-white {
+  background-color: $white-color!important;
+}
+
 .bg-gray {
-  background-color: $dark-gray-color!important;
+  background-color: $gray-color-243!important;
+}
+
+.bg-secondary {
+  background-color: $gray-color!important;
+}
+
+.bg-muted {
+  background-color: $gray-color-195!important;
+}
+
+.bg-warning {
+  background-color: $yellow-color-176!important;
+}
+
+.bg-yellow {
+  background-color: $yellow-color!important;
+}
+
+.bg-black {
+  background-color: $black-color!important;
 }

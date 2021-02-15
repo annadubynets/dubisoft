@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Medium';
   src: url('../fonts/Montserrat-Medium.eot');
   src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
   url('../fonts/Montserrat-Medium.woff2') format('woff2'),
@@ -12,14 +12,53 @@
 }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url('../fonts/Montserrat-Regular.eot');
-  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-  url('../fonts/Montserrat-Regular.woff') format('woff'),
-  url('../fonts/Montserrat-Regular.ttf') format('truetype'),
-  url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-family: 'Montserrat-Semibold';
+  src: url('../fonts/Montserrat-SemiBold.eot');
+  src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+  url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+  url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro-Regular';
+  src: url('../fonts/SourceCodePro-Regular.eot');
+  src: url('../fonts/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SourceCodePro-Regular.woff2') format('woff2'),
+  url('../fonts/SourceCodePro-Regular.woff') format('woff'),
+  url('../fonts/SourceCodePro-Regular.ttf') format('truetype'),
+  url('../fonts/SourceCodePro-Regular.svg#SourceCodePro-Regular') format('svg');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro-Medium';
+  src: url('../fonts/SourceCodePro-Medium.eot');
+  src: url('../fonts/SourceCodePro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SourceCodePro-Medium.woff2') format('woff2'),
+  url('../fonts/SourceCodePro-Medium.woff') format('woff'),
+  url('../fonts/SourceCodePro-Medium.ttf') format('truetype'),
+  url('../fonts/SourceCodePro-Medium.svg#SourceCodePro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro-Semibold';
+  src: url('../fonts/SourceCodePro-Semibold.eot');
+  src: url('../fonts/SourceCodePro-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SourceCodePro-Semibold.woff2') format('woff2'),
+  url('../fonts/SourceCodePro-Semibold.woff') format('woff'),
+  url('../fonts/SourceCodePro-Semibold.ttf') format('truetype'),
+  url('../fonts/SourceCodePro-Semibold.svg#SourceCodePro-Semibold') format('svg');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -42,4 +81,141 @@
 
 .font-size-xl {
   font-size: $font-size-xl;
+}
+
+body {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $black-color;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: inline-block;
+}
+
+h1,
+h2,
+{
+  font-family: $font-family-montserrat-semibold;
+  font-weight: 600;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 88px;
+  color: $yellow-color;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 68px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 26px;
+    line-height: 44px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 54px;
+  color: $black-color;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 26px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 320px) {
+  h2 {
+    font-size: 24px;
+    line-height: 41px;
+  }
+}
+
+h3 {
+  font-family: $font-family-montserrat-medium;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: $black-color;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 18px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 320px) {
+  h3 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+h4 {
+  font-family: $font-family-source-code-pro-semibold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: $black-color;
+  margin: 0;
+}
+
+p {
+  font-family: $font-family-primary;
+  font-weight: 400;
+  color: $black-color;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.font-weight-500 {
+  font-weight: 500!important;
+}
+
+.font-weight-600 {
+  font-weight: 600!important;
+}
+
+.mt-110 {
+  margin-top: 110px!important;
 }

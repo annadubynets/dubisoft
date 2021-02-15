@@ -1,12 +1,16 @@
-$font-family-primary: 'Montserrat', sans-serif;
-$font-family-secondary: 'Montserrat-Regular', sans-serif;
+$font-family-primary: 'Source Code Pro-Regular', sans-serif;
+$font-family-secondary: 'Source Code Pro-Medium', sans-serif;
+$font-family-source-code-pro-semibold: 'Source Code Pro-Semibold', sans-serif;
+$font-family-montserrat-medium: 'Montserrat-Medium', sans-serif;
+$font-family-montserrat-semibold: 'Montserrat-Semibold', sans-serif;
 
 $white-color: #ffffff;
-$light-gray-color: #D6D6D6;
-$gray-color: #878889;
-$dark-gray-color: #484C4E;
-$yellow-color: #D2C05B;
-$black-color: #1E1C1C;
+$gray-color-243: #F3F3F1;
+$gray-color-195: #C3BFBF;
+$gray-color: #878682;
+$yellow-color-176: #B09E6F;
+$yellow-color: #BD8800;
+$black-color: #242321;
 
 $xss-screen: 320px;
 $xs-screen: 375px;
@@ -15,8 +19,8 @@ $md-screen: 768px;
 $lg-screen: 992px;
 $xl-screen: 1200px;
 
-$font-size-xs: 14px;
-$font-size-sm: 18px;
-$font-size-md: 22px;
-$font-size-lg: 36px;
-$font-size-xl: 52px;
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
